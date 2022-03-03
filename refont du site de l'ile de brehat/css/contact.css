@@ -1,0 +1,26 @@
+.form-sec{
+    width:400px;
+    background:#ccc;
+    padding:15px;
+    width: 400px;
+    background: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0 0 4px #ccc;
+    margin:0 auto;
+    margin-top: 55px;
+    box-shadow: 10px 10px 20px #ccc;
+}
+
+
+.formulaire{
+    background-color: #f9f6f5;
+    padding: 0;
+    margin : 7% 0;
+}
+
+@media (max-width: 991px) {
+    .formulaire{
+        margin-bottom: 10%;
+        margin-top : 20%;
+    }
+}

@@ -1,0 +1,616 @@
+body{
+    overflow-x:hidden;
+}
+
+/*CSS POUR LA NAV BAR */
+.navbar {
+    transition: all 0.4s;
+    float:none;
+    width: 100%;
+    text-decoration: none;
+    padding-left:15%;
+    padding-right:15%;
+    color:#fff;
+
+    
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    color:#fff;
+
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color:white;
+}
+
+
+
+/* hover quand la nav barre et tout en haut*/
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    text-decoration:underline;
+     
+}
+
+.navbar .navbar-brand {
+    color: #fff;   
+}
+
+/* Change LA navbar en fonction du scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+
+/* hover quand la nav bar passe en blanc*/
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration:underline;
+    
+}
+
+.navbar.active .navbar-brand {
+    color: #fff;
+    
+}
+
+.navbar .nav-link{
+    color:#fff;
+}
+
+/* Change la navbar si on est sur un petit écran */
+
+
+
+/*===============FIN NAV BAR====================*/
+
+/*===========================*/
+/* texte dans le header */
+/*===========================*/
+
+
+/* POUR LA COULEUR DE LA BANNIERE*/
+/*.bg-light{
+}*/
+
+header{
+    max-height:1000vh;
+    min-height:100vh;
+    background-image: url("../img/iledebrehat2.jpg");
+    background-repeat:none;
+    background-size:cover;  
+    align-items: center;
+    text-align:center;
+    color:white;    
+}
+
+h1.txtPres{
+    font-size:35px;  
+    width: 100%;
+    padding-top:15%;
+    text-align:center;
+    color:White;
+}
+
+/* ====================================*/
+/*==== BOUTTON POUR Découvrir ========*/
+/* ====================================*/
+
+
+a.bouttom {
+    width: 100%;
+    max-width: 240px;
+    height: 54px;
+    padding: 8px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+      
+}
+
+
+ a.white:hover > p {
+    color: #ece8e1;
+}
+
+div a.white > p {
+    background: #ece8e1;
+    color: white;
+}
+
+div a.white > p span.base {
+    border: 1px solid transparent;
+}
+
+a.bouttom.transparent:hover > p {
+    color: #ece8e1;
+}
+
+div a.transparent:hover > p span.text {
+    box-shadow: 0 0 0 0px #ece8e1;
+}
+
+div a.transparent > p {
+    background: white;
+    color: #ece8e1;
+}
+
+div a.transparent > p span.base {
+    border: 1px solid #ece8e1;
+}
+
+
+
+a.bouttom a:before {
+    right: 0;
+    left: initial;
+}
+
+a.bouttom p {
+    margin: 0;
+    height: 54px;
+    line-height: 54px;
+    box-sizing: border-box;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+div a p span.base {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border: 1px solid #ff4655;
+}
+
+div a p span.base:before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    left: -1px;
+    top: -1px;
+    position: absolute;
+    transition: 0.3s ease-out all;
+}
+
+div a p span.bg {
+    left: -5%;
+    position: absolute;
+    background: #ff4655;
+    width: 0;
+    height: 100%;
+    z-index: 3;
+    transition: 0.3s ease-out all;
+    transform: skewX(-10deg);
+}
+div a p span.text {
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+div a p span.text:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    right: 0;
+    bottom: 0;
+    
+    position: absolute;
+    transition: 0.3s ease-out all;
+    z-index: 5;
+    
+}
+div a:hover {
+    color: #ece8e1;
+}
+
+div a:hover span.bg {
+    width: 110%;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+
+/* sert a changer la couleur de la nav bar*/
+.nav-item .text-dark {
+    color:#0d0f2e!important;  
+}
+
+;bouttom {
+    padding-left:40%;
+    padding-right:40%;
+}
+
+.bouttonAccueil {
+    
+    padding-left:35%;
+    padding-right:35%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+/*======BOUTON DE accueil===== */
+.bouton {
+    border-radius:12px 0 12px 0;
+    background: #d34836;
+    border:none;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+}
+
+
+/*===================================*/
+/*======texte page accueil==========*/
+/*=================================*/
+
+div.divHeader{
+    width:100%;
+    max-width:1000vh;
+    
+}
+/*======SECTION 1==========*/
+
+.Titre1::first-letter{
+    font: italic 1.6em "Fira Sans", serif;
+    
+}
+.Titre1{ 
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:15px;
+    color:red;
+    text-align:left;
+    font: italic 2.3em "Fira Sans", serif;
+}
+.article1 {
+    font-size:25px;  
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:15px;
+    padding-bottom:15px;
+    
+    color:black;
+    
+}
+
+.section1{
+    margin-top:3%;
+    height:100%;
+}
+
+
+/*======SECTION 2==========*/
+
+.Titre2::first-letter{
+    font: italic 1.6em "Fira Sans", serif;
+    
+}
+.Titre2{ 
+    padding-left:3%;
+    padding-right:7%;
+    padding-top:15px;
+    color:#CB2222;
+    text-align:right;
+    font: italic 2.4em "Fira Sans", serif;
+}
+
+.article2::first-letter{
+    font: italic 1.7em "Fira Sans", serif;
+    color:red;
+}
+
+.article2 {
+    font-size:25px;  
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:15px;
+    padding-bottom:35px;
+    color:WHITE;
+}
+
+.section2{
+/*    background-image:url(../img/iledebrehat2.jpg);*/
+    background-color:#3F3F3F;
+    
+}
+
+img{
+    padding-top:20%;
+    padding-right:15%;
+    max-width:100%;
+    max-height:100%;
+   
+}
+
+/*======SECTION 3==========*/
+
+.Titre3::first-letter{
+    font: italic 1.6em "Fira Sans", serif;
+    
+}
+.Titre3{ 
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:2%;
+    color:red;
+    text-align:left;
+    font: italic 2.3em "Fira Sans", serif;
+}
+.article3 {
+    font-size:25px;  
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:black;
+}
+
+.section3{
+    
+    
+}
+
+
+
+p.txtbtnContact{
+    position:absolute;
+    padding-right:15px;
+    right:0px;
+    bottom:0px;
+    font-size: 1rem;
+    font-weight: 900;
+}
+p.txtbtnContact::first-letter{
+    color:red;
+    font-size:2ram;
+}
+
+p.txtbtnContact {
+    color: white;
+    font-size:1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+      
+}
+
+/*========================*/
+/*======contact==========*/
+/*========================*/
+
+#contact{
+    background-image:url(../img/iledebrehat2.jpg);
+    background-repeat:none;
+    background-size:cover;
+    background-attachment:fixed;
+    padding-top:40px;
+    min-height: calc(100vh - 20vh);
+}
+
+div.formulaire{
+    padding-top:10px;
+    position:absolute;
+    left:50%;
+    width:300px; /* A toi de donner la bonne largeur */
+    height:200px; /* A toi de donner la bonne hauteur */
+    margin-left:-150px; /* -largeur/2 */
+}
+
+label {
+    background-color: white;
+    color:#0d0f2e;
+    border-radius:5px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:20px;
+}
+
+/*================================================*/
+/*============= pour le flooter ==================*/
+
+
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+/*================================================*/
+/*============= MEDIA LG LARGE==================*/
+/*================================================*/
+
+@media (max-width:1000px){
+        img{
+            padding-top:3px;
+            padding-bottom:20px;
+            padding-right:25px;
+            padding-left:25px;
+            max-width:100%;
+            max-height:100%;
+       
+    }
+}
+/*================================================*/
+/*============= MEDIA MD MEDIUM==================*/
+/*================================================*/
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: white;
+    }
+    
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: black;  
+    }
+    h1.txtPres{
+        font-size:35px;  
+        width: 100%;
+        margin-top:25%;
+        text-align:center;
+        color:White;   
+    }
+    div.bouttonAccueil {
+        
+        margin-top:5%;
+        padding-left:10%;
+        padding-right:10%;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    img{
+        max-width:100%;
+        max-height:100%;
+    }
+}
+
+/*================================================*/
+/*============= MEDIA SX PETIT==================*/
+/*================================================*/
+
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.8;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.white{
+    color: white;
+}
+
+.taille{
+    font-size: 20px;
+}
+
+/*======= CSS PAGE CONTACT ====== */
+
+.form-sec{
+    width:400px;
+    background:#ccc;
+    padding-top:7%;
+    width: 400px;
+    background: #f8f9fa;
+    padding: 15px;
+    box-shadow: 0 0 4px #ccc;
+    margin-top: 55px;
+    box-shadow: 10px 10px 20px #ccc;
+}
+
+
+.formulaire{
+    background-color: #f9f6f5;
+    padding: 25px;
+    padding-top:10%;
+    margin : 7% 0;
+}
+
+@media (max-width: 991px) {
+    .formulaire{
+        margin-bottom: 10%;
+        margin-top : 20%;
+    }
+}
+

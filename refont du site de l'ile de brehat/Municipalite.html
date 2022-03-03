@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+    <!--utilise le la bibliotheque js pour bootstrap -->
+    <!-- <script src="./js/bootstrap.bundle.min.js"></script> -->
+
+
+    <script type="text/javascript" src="./js/scryptNavbar.js"></script>
+
+    <!-- Footer -->
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <!--  JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <title>Comune d'ile-de-bréhat</title>
+</head>
+<body class="bg-img2 pt-5">
+
+
+<!-- ------------------NAV BAR----------------------------------- -->
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top py-3 col-12 col-md-12"  style="background: #1d2124">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" align="center">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarContent" class="collapse navbar-collapse " >
+        <ul class="navbar-nav container" >
+            <li class="nav-item ">
+                <a href="Accueil.html" class=" txtNavbar nav-link text-uppercase text-white font-weight-bold">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a href="Municipalite.html" class="nav-link text-uppercase text-white font-weight-bold">Municipalité</a>
+            </li>
+            <li class="nav-item ">
+                <a href="activite_decouverte.html" class="nav-link text-uppercase text-white font-weight-bold">Activités et découverte</a>
+            </li>
+            <li class="nav-item ">
+                <a href="contact.html" class="nav-link text-uppercase text-white font-weight-bold">A propos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class=" mt-5 p-5 text-center text-white" style="background-color:#282D32;">
+    <h2 class="font-weight-bold">Consulter les services de votre municipalité</h2>
+    <p><a class="text-primary" href="Accueil.html">Accueil</a>/Municipalité</p>
+</div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner bg-dark">
+        <div class="carousel-item active">
+            <div class="p-5">
+                <h4 class="text-center text-white mb-4">Qui sommes nous ?</h4>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 ml-auto mb-3">
+                        <div class="border border-0 border-dark bg-dark rounded">
+                            <img src="img/equipe.jpg" style="cursor: pointer;" class="card-img-top" alt="image ile de brehat" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+                            <div id="accordion">
+                                <div class="card border-0">
+                                    <div class="card-header bg-dark" id="headingOne">
+                                        <h5 class="mb-0 text-center">
+                                            <div class="btn text-white font-weight-bold" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Equipe municipale
+                                            </div>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseOne" class="collapse rounded" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p class="text-center">Le maire et les élus</p>
+                                            <div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item font-weight-bold">Le Maire</li>
+                                                    <p class="ml-5">
+                                                        Olivier Carré
+                                                        <img src="img/icone/loupe.png" width="20">
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">1ère adjointe</li>
+                                                    <p class="ml-5">
+                                                        Gabrielle Cojean-Prigent
+                                                        <img src="img/icone/loupe.png" width="20">
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">2ème adjoint</li>
+                                                    <p class="ml-5">
+                                                        François-Yves Le Thomas
+                                                        <img src="img/icone/loupe.png" width="20">
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">3ème adjoint</li>
+                                                    <p class="ml-5">
+                                                        Dominique Sicher
+                                                        <img src="img/icone/loupe.png" width="20">
+                                                    </p>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mr-auto">
+                        <div class="border border-0 border-dark bg-dark rounded">
+                            <img src="img/mairie.jpg" style="cursor: pointer;" class="card-img-top" alt="image ile de brehat" data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
+                            <div id="accordion2">
+                                <div class="card border-0">
+                                    <div class="card-header bg-dark text-white" id="headingTwo">
+                                        <h5 class="mb-0 text-center">
+                                            <button class="btn text-white font-weight-bold" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                Mairie
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse rounded" aria-labelledby="headingTwo" data-parent="#accordion2">
+                                        <div class="card-body">
+                                            <p class="text-center">Les services municipaux de l’Île-de-Bréhat ont pour mission de satisfaire les besoins quotidiens de la population. Ils sont organisés comme suit :</p>
+                                            <div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item font-weight-bold">Service administratif</li>
+                                                    <p class="ml-5">
+                                                        Accueil, comptabilité, état civil <br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> iledebrehat@mairie-brehat.fr</i>
+                                                    </p>
+                                                    <p class="ml-5">
+                                                        Urbanisme, ports communaux, marchés publics<br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> urbanisme@mairie-brehat.fr</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Service technique</li>
+                                                    <p class="ml-5">
+                                                        Gestion des déchets, espaces verts<br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> iledebrehat@mairie-brehat.fr</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Police municipale</li>
+                                                    <p class="ml-5">
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> police@mairie-brehat.fr</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">A fourth item</li>
+                                                    <p class="ml-5">
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> spanc@mairie-brehat.fr</i>
+                                                    </p>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="p-5">
+                <h4 class="text-center text-white mb-4">Education et services :</h4>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 ml-auto mb-3">
+                        <div class="border border-0 border-dark bg-dark rounded">
+                            <img src="img/ecole.jpg" style="cursor: pointer;" class="card-img-top" alt="image ile de brehat" data-toggle="collapse" data-target="#collapseThree" aria-controls="collapseThree">
+                            <div id="accordion3">
+                                <div class="card border-0">
+                                    <div class="card-header bg-dark" id="headingThree">
+                                        <h5 class="mb-0 text-center">
+                                            <div class="btn text-white font-weight-bold" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                Education
+                                            </div>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse rounded" aria-labelledby="headingThree" data-parent="#accordion3">
+                                        <div class="card-body">
+                                            <p class="text-center">S'éduquer à l'Ile de Bréhat n'a jamais été aussi simple...</p>
+                                            <div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item font-weight-bold">L'école à Bréhat</li>
+                                                    <p class="ml-5">
+                                                        L’ école primaire de Kérano accueille :<br>
+                                                        <span>- de la maternelle au CP avec une professeur des écoles et une ATSEM</span><br>
+                                                        <span>- du CE1 au CM2 avec la directrice.</span><br><br>
+                                                        <a href="https://www.iledebrehat.fr/wp-content/uploads/2020/11/Inscription-scolaire-1.pdf" class="badge badge-primary">Dossier inscription : école primaire Kerano</a><br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> ecole.0221447d@ac-rennes.fr</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">La cantine</li>
+                                                    <p class="ml-5">
+                                                        <u> Cantine scolaire :</u> sur inscription <br>
+                                                        <u>Local :</u> école du Bas <br>
+                                                        Nouveauté 2021 : à partir d’avril 2021, le prix du repas cantine est indexé sur votre quotient familial CAF. Pensez à vous transmettre votre attestation.<br><br>
+                                                        <a href="https://www.iledebrehat.fr/wp-content/uploads/2020/12/Dossier-inscription-cantine-scolaire.pdf" class="badge badge-primary">Dossier inscription : cantine scolaire</a><br>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">La garderie</li>
+                                                    <p class="ml-5">
+                                                        <u>Garderie périscolaire :</u> de 16h15 à 17h30, gratuite sur inscription.<br>
+                                                        <u>Local :</u> école du Bas <br><br>
+                                                        <a href="https://www.iledebrehat.fr/wp-content/uploads/2020/12/Dossier-inscription-garderie-periscolaire.pdf" class="badge badge-primary">Dossier inscription : garderie périscolaire</a><br>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Les transports scolaires</li>
+                                                    <p class="ml-5">
+                                                        <u>Transports scolaires sur le territoire communal :</u> Petit Train et vedettes.<br>
+                                                        Le Petit Train pour la vedette de 7h20 est exclusivement réservé aux scolaires.<br>
+                                                        Inscription auprès du service <a href="https://www.axeo.bzh/se-deplacer/axeo-scolaire/">AXEO</a>.<br><br>
+                                                        <a href="https://www.iledebrehat.fr/wp-content/uploads/2020/12/DEMANDE-transports-scolaires.pdf" class="badge badge-primary">Information mairie besoins transports scolaires</a>
+                                                    </p>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mr-auto">
+                        <div class="border border-0 border-dark bg-dark rounded">
+                            <img src="img/services.jpg" style="cursor: pointer;" class="card-img-top" alt="image ile de brehat" data-toggle="collapse" data-target="#collapseFour" aria-controls="collapseFour">
+                            <div id="accordion4">
+                                <div class="card border-0">
+                                    <div class="card-header bg-dark text-white" id="headingFour">
+                                        <h5 class="mb-0 text-center">
+                                            <button class="btn text-white font-weight-bold" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                Services
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFour" class="collapse rounded" aria-labelledby="headingFour" data-parent="#accordion4">
+                                        <div class="card-body">
+                                            <p class="text-center">Les services municipaux de l’Île-de-Bréhat ont pour mission de satisfaire les besoins quotidiens de la population. Ils sont organisés comme suit :</p>
+                                            <div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item font-weight-bold">Service administratif</li>
+                                                    <p class="ml-5">
+                                                        <u>Cabinet médical</u><br>
+                                                        <img src="img/icone/appel-telephonique.png" width="20" class="ml-2"><i> 02 96 20 09 51</i> <br>
+                                                        <img src="img/icone/enveloppe.png" width="20" class="ml-2"><i> iledebrehat@mairie-brehat.fr</i><br><br>
+                                                        <u>EHPAD</u><br>
+                                                        <a href="https://ch-paimpol.com/ehpad-kreiz-armor/" class="badge badge-primary">Hopital de Paimpol</a><br>
+                                                        <a href="https://www.pour-les-personnes-agees.gouv.fr/annuaire-ehpad-et-maisons-de-retraite/EHPAD/COTES-D'ARMOR-22/ile-de-brehat-22870/ehpad-residence-kreiz-ar-mor/220013064" class="badge badge-primary">www.pour-les-personnes-agees.gouv.fr</a><br><br>
+                                                        <u>Cellule COVID</u><br>
+                                                        <a href="https://www.iledebrehat.fr/wp-content/uploads/2021/01/compte-rendu-cellule-Covid-du-16-janvier-2021.pdf" class="badge badge-primary">Compte-rendu cellule Covid du 16 janvier 2021</a><br>
+                                                        <a href="https://www.iledebrehat.fr/wp-content/uploads/2021/01/Cellule-Covid-du-09-01-2021-Google-Docs.pdf" class="badge badge-primary">Compte-rendu cellule Covid du 09 janvier 2021</a><br><br>
+                                                        <u>Transport VSL</u><br>
+                                                        <img src="img/icone/appel-telephonique.png" width="20" class="ml-2"><i> 02 96 20 00 36</i> <br>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Services techniques</li>
+                                                    <p class="ml-5">
+                                                        DES MISSIONS DE SERVICE PUBLIC :<br>
+                                                        ▪ Déchets, <br>
+                                                        ▪ Voirie et réseaux divers, <br>
+                                                        ▪ Patrimoine bâti intérieur et extérieur, <br>
+                                                        ▪ Infrastructures opérationnelles, <br>
+                                                        ▪ Espaces verts et environnementaux, <br>
+                                                        ▪ Domaine maritime communal, <br>
+                                                        ▪ Camping municipal, <br>
+                                                        ▪ Petits travaux et maintenance 1er degré du parc roulant. <br>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Pompier</li>
+                                                    <p class="ml-5">Les sapeurs-pompiers de l’Île-de-Bréhat sont tous des volontaires, femmes et hommes, qui ont choisi de consacrer une partie de leur temps au service de leur communauté. 85% des interventions concernent du secours d’urgence aux personnes.<br><br>
+                                                        <img src="img/icone/appel-telephonique.png" width="20"><i> 18 ou 112</i>
+                                                    </p>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="p-5">
+                <h4 class="text-center text-white mb-4">Ecologie et environnement :</h4>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 ml-auto mb-3">
+                        <div class="border border-0 border-dark bg-dark rounded">
+                            <img src="img/proprete.jpg" style="cursor: pointer;" class="card-img-top" alt="image ile de brehat" data-toggle="collapse" data-target="#collapseFive" aria-controls="collapseFive">
+                            <div id="accordion5">
+                                <div class="card border-0">
+                                    <div class="card-header bg-dark" id="headingFive">
+                                        <h5 class="mb-0 text-center">
+                                            <div class="btn text-white font-weight-bold" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                                La propreté
+                                            </div>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseFive" class="collapse rounded" aria-labelledby="headingFive" data-parent="#accordion5">
+                                        <div class="card-body">
+                                            <div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item font-weight-bold">Composteurs</li>
+                                                    <p class="ml-5">
+                                                        Pour réserver votre composteur (400L ou 600 L), veuillez prendre contact avec la mairie :<br><br>
+                                                        <img src="img/icone/appel-telephonique.png" width="20"><i> 02 96 20 00 36</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Encombrants</li>
+                                                    <p class="ml-5">
+                                                        La collecte des “monstres” a lieu le dernier jeudi des mois de février, avril, juin, septembre, novembre sur inscription en mairie :<br><br>
+                                                        <img src="img/icone/appel-telephonique.png" width="20"><i> 02 96 20 00 36</i><br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> iledebrehat@mairie-brehat.fr</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Déchetterie</li>
+                                                    <p class="ml-5">
+                                                        <u>Règlement :</u><br>
+                                                        Nous vous invitons à trier et à déposer vos rebuts dans les différents boxes, containers mis à votre disposition et  signalés par une pancarte. <br>
+                                                    </p>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mr-auto">
+                        <div class="border border-0 border-dark bg-dark rounded">
+                            <img src="img/port.jpg" style="cursor: pointer;" class="card-img-top" alt="image ile de brehat" data-toggle="collapse" data-target="#collapseSix" aria-controls="collapseSix">
+                            <div id="accordion6">
+                                <div class="card border-0">
+                                    <div class="card-header bg-dark text-white" id="headingSix">
+                                        <h5 class="mb-0 text-center">
+                                            <button class="btn text-white font-weight-bold" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                                Services aquatiques
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseSix" class="collapse rounded" aria-labelledby="headingSix" data-parent="#accordion6">
+                                        <div class="card-body">
+                                            <p class="text-center">L'Ile de Bréhat dispose de multiples ports permettant de vous fournir des services liés à l'eau. Voici les principaux :</p>
+                                            <div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item font-weight-bold">Ports communaux de la Chambre et de la Corderie</li>
+                                                    <p class="ml-5">
+                                                        Plaisanciers, vous pouvez vous rapprocher du service des ports communaux en écrivant à l’adresse suivante : <br><br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> urbanisme@mairie-brehat.fr</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Assainissement collectif et gestion de l’eau potable</li>
+                                                    <p class="ml-5">
+                                                        Vous pouvez contacter les services de VEOLIA par téléphone :<br><br>
+                                                        <img src="img/icone/appel-telephonique.png" width="20"><i> 09 69 32 35 29</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Assainissement non collectif</li>
+                                                    <p class="ml-5">
+                                                        Conseils et information, prise de rendez-vous avec le technicien.<br>
+                                                        <u>SPANC :</u><br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> spanc@mairie-brehat.fr</i>
+                                                    </p>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="p-5">
+                <h4 class="text-center text-white mb-4">Infos supplémentaires :</h4>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mx-auto mb-3">
+                        <div class="border border-0 border-dark bg-dark rounded">
+                            <img src="img/infos.jpg" style="cursor: pointer;" class="card-img-top" alt="image ile de brehat" data-toggle="collapse" data-target="#collapseSeven" aria-controls="collapseSeven">
+                            <div id="accordion7">
+                                <div class="card border-0">
+                                    <div class="card-header bg-dark" id="headingSeven">
+                                        <h5 class="mb-0 text-center">
+                                            <div class="btn text-white font-weight-bold" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                                Bréhat infos
+                                            </div>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseSeven" class="collapse rounded" aria-labelledby="headingSeven" data-parent="#accordion7">
+                                        <div class="card-body">
+                                            <p class="text-center">Bulletin municipal de la commune de l’Île-de-Bréhat. Publication trimestrielle. Vous y découvrirez des articles sur les projets en cours où à venir, sur la vie quotidienne et l’actualité.</p>
+                                            <div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item font-weight-bold">Des idées à nous donner ?</li>
+                                                    <p class="ml-5">
+                                                        Si vous souhaitez vous exprimer dans les pages de Bréhat Infos, n’hésitez pas à contacter Dominique Sicher :<br><br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> dominicsicher@gmail.com</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Demande d’actes d’Etat Civil</li>
+                                                    <p class="ml-5">
+                                                        Demande par courrier ou par courriel :<br><br>
+                                                        <img src="img/icone/enveloppe.png" width="20"><i> iledebrehat@mairie-brehat.fr</i>
+                                                    </p>
+                                                    <li class="list-group-item font-weight-bold">Elections</li>
+                                                    <p class="ml-5">
+                                                        Accessible avec un compte <a href="https://www.service-public.fr">service-public.fr</a> ou via France Connect, et à condition d’être âgé d’au moins 18 ans.
+                                                    </p>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 item text">
+                    <h3 class="taille" style="color:white;">Spirited Away</h3>
+                    <p class="taille">143 avenue de Versailles, IUT de Paris - Rives de Seine<br> © Tous droits réservés.</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">île de Brehat- Développé par Rami, Marke, Laurent, Sara, Nicolas</p>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>
